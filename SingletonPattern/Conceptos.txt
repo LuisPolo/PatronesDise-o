@@ -1,0 +1,7 @@
+﻿Una clase puede tener una clase privada.
+Por defecto una clase al ser creada está como internal (Solo accesibles desde el mismo ensamblado)
+Metodos Estaticos no son necesario instanciarlos. Es un metodo de clase. You need to use
+a class name to reference a static method.
+La clave del patron singleton es que tiene un constructor privado.
+
+"Ensure that a class only has one instance and provide  a global point of "

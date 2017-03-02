@@ -1,0 +1,7 @@
+﻿Encapsulate method invocation
+Allows to decouple the requester of an action from the object that actually performs the action.
+Requested: Remote control
+Objecto that perform the action: Could be an instance of one of your vender classes.
+command object.
+
+All command objects implements the same interface.

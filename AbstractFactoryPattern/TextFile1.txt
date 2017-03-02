@@ -1,0 +1,20 @@
+﻿/*Factory Method use classes to create object through inheritance.
+You need to extend a class and provide an implementation for a factory method.
+You use a subclass to do your creation for you. The cients only need to konw the abstract
+type they are using, the subclasses worried about the concrete class. Client are decoupled from
+the concrete class.
+Implements code in the abstract creator tha makes use of the concrete types the subclasses create.
+Uso: Cuando se quiere desacoplar al cliente de una clase concreta que quieras instanciar o sino
+sabes la cantidad de clases concretas que vas a necesitar.
+
+Abstract Method use objects. Create objects thorugh composition.
+Provide an abstract type for creating a family of products. Subclasses of this type define how those
+products are produced. To use the factory, you instantiate one and pass it into some code that
+is written against the abstract type. So, like factory method, the clients are decoupled from the actual 
+concrete products they use.
+Si kiero adicionar nuevos productos tengo que cambiar la interfaz lo cual no es algo agradable.
+the concrete factories implement a factory method to create their products.
+Uso: Cuando se tenga una familia de productos que se quiera crear y quieras asegurarte que los productos
+creados por tus clientes pertenezca a lo mismo.
+
+*/
